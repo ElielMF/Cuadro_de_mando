@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cuadro de mando</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+</head>
+
+
+
+<body>
+	<h1 id="tituloPrincipal" >Consulta de saldos</h1>
+	
+	
+	<div class="caja_busqueda">
+
+			
+				<input id="poliza" type="number" name="" placeholder="Ingrese el número de poliza aquí">
+
+				<button id="Enviar_1">Buscar</button>
+			
+			<div class="caja_img">
+
+				<img src=https://images.vexels.com/media/users/3/132066/isolated/preview/71646d7673e8847ab07b3b7e78928777-icono-de-circulo-de-busqueda.png>
+			</div>
+			
+	</div>
+	
+
+	<div class="caja_nombre">
+		<h2 class="item_cajanombre">Nombre: </h2>
+		<div class="item_cajanombre nombre">-----</div>
+	</div>
+
+	<div class="caja_generalyretiros">
+
+		<div class="caja_general">
+			<h2>Datos generales</h2>
+			<p >Vigencia :</p>
+			<div class="Vigencia item_cajageneral">------</div>
+			<p>FEFE(Último registro de pago) :</p>
+			<div class="FEFE item_cajageneral">------</div>
+			<p>Descuento quincenal :</p>
+			<div class="Desc_quinecenal item_cajageneral">------</div>
+			<p>Saldo por año (Proyeccion financiera) :</p>
+			<div class="Proyecion_financiera item_cajageneral">------</div>
+			<p>Saldo por año (Formula) :</p>
+			<div class="formula item_cajageneral">----</div>
+			<p> Saldo en cuenta :</p>
+			<div class="saldo item_cajageneral">------</div>
+			
+
+		</div>
+
+			<div class="caja_retiros">
+				
+				<h2>Retiros</h2>
+				<p>Monto</p>
+				<p>Fecha</p>
+				<div class="caja_retiros_items">
+				</div>
+				<p>Numero de retiros: </p>
+				<div id="numret">numretiros</div>
+				<p>Suma de retiros: </p>
+				<div id="sumret">sumretiros</div>
+
+			</div>
+
+		</div>
+	</div>
+
+<div class="caja_informacion">
+	<h2> Información</h2>
+	<p > Val.Año</p>
+	<p> Val.Mes</p>
+	<p> Val.Saldo</p>
+	<div class="valAño"> #Val.año</div>
+	<div class="valMes"> #Val.mes</div>
+	<div class="validacion_saldo"> #Val.saldo</div>
+
+	<p>Numero de años</p>
+	<p>Transcurridos</p>
+	<p>Cobrados</p>
+	<p>Podria cobrar</p>	
+	<div class="Trancurridos"> #Numaños</div>
+	<div class="Cobrados"> #Trancurrido</div>
+	<div class="podriaCobrar"> #Podriacobrar</div>
+
+	<p>Saldo por años</p>
+	<div class="caja_informacion_subtitulo" >
+	<p>Proyección financiera</p>
+	<p>Formula</p>
+	<div class="proyeccion_"> #Proyeccionfinanciera</div>
+	<div class="formula_"> #Formula</div>
+	</div>
+
+	
+	
+	
+
+	<p>Suma de retiros</p>
+	<div class="sumretinf"> #Sum retiros</div>
+	<p>Diferencia</p>
+
+	<div class="caja_informacion_subtitulo" >
+	<p>Por proyeccion</p>
+	<p>Por formula</p>
+	<div class="difproyec"> #Diferencia proyec</div>
+	<div class="difformula"> #Diferencia formula</div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="cuadromando.js"></script>
+</body>
+</html>
